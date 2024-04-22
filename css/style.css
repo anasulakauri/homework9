@@ -1,27 +1,7 @@
-/* header */
+/* general */
 
-.header {
-
-}
-
-.header-wrapper {
-    max-width: 1376px;
-    width: 95%;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.ul-item {
-    display: flex;
-}
-
-.nav-a-item {
-    font-size: 16px;
-    font-family: 'Inter-500';
-    line-height: 19.36px;
-    white-space: nowrap;
+.image {
+    border-radius: 3%;
 }
 
 .button {
@@ -36,6 +16,32 @@
     line-height: 24px;
 }
 
+/* header */
+
+.header-wrapper {
+    max-width: 1376px;
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 96px;
+}
+
+.ul-item {
+    display: flex;
+}
+
+.nav-a-item {
+    font-size: 16px;
+    font-family: 'Inter-500';
+    line-height: 19.36px;
+    white-space: nowrap;
+    font-style: none;
+    margin-right: 24px;
+    color: #000000;
+}
+
 .burger-menu {
     display: none;
     border-radius: 100%;
@@ -45,6 +51,223 @@
     height: 25px;
     text-align: center;
     padding: 4px;
+}
+
+/* section1 */
+
+.section1 {
+    height: 428px;
+    max-width: 1140px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 64px auto;
+}
+
+.section1-h1 {
+    font-family: 'Inter-900';
+    font-size: 56px;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+
+.section1-text1 {
+    font-family: 'Inter-400';
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.section1-text2 {
+    font-family: 'Inter-600';
+    font-size: 14px;
+    line-height: 20px;
+    margin-left: 20px;
+    width: 236px;
+}
+
+.section1-button-text {
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.left-block1 {
+    width: 490px;
+    margin-right: 130px;
+}
+
+.right-block1 {
+    width: 490px;
+}
+
+
+/* section2 */
+
+.section2-wrapper {
+    background-color: #F3F3F3;
+}
+
+.section2 { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 244.2px;
+    max-width: 1140px;
+    width: 90%;
+}
+
+.section2-boxes{
+    width: 360px;
+}
+
+.section2-boxtop {
+    display: flex;
+    align-items: center;
+}
+
+.section2-blackdot {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 16px;
+}
+
+.section2-h4 {
+    font-family: 'Inter-700';
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.section2-text {
+    font-family: 'Inter-400';
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 16px;
+}
+
+/* section3 */
+
+.section3-wrapper {
+    background-color: #000000;
+    height: 620px;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1140px;
+    width: 90%;
+}
+
+.left-block3 {
+    width: 503.5px;
+    margin: 96px 0;
+}
+
+.right-block3 {
+    width: 503.5px;
+}
+
+.section3-h3 {
+    font-family: 'Inter-900';
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+}
+
+.section3-text {
+    font-family: 'Inter-400';
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.text-middle {
+    margin: 16px 0;
+}
+
+.text-active {
+    margin-bottom: 8px;
+}
+
+/* section4 */
+
+.section4 {
+
+}
+
+.section4-image {
+    position:absolute;
+}
+
+.image4 {
+    width: 100%;
+}
+
+.section4-textbox {
+    position: relative;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section4-text {
+    font-family: 'Inter-500';
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.section4-h2 {
+    font-family: 'Inter-900';
+    font-size: 40px;
+    line-height: 48px;
+    color: white;
+    width: 540px;
+    text-align: center;
+}
+
+.button2 {
+    width: 100px;
+    height: 48px;
+    background-color: white;
+    color: black;
+    border-radius: 32px;
+    border-style: none;
+    font-size: 16px;
+    font-family: 'Inter-700';
+    line-height: 24px;
+}
+
+
+
+/* footer */
+
+.footer-wrapper {
+    background-color: black;
+}
+
+.footer {
+    max-width: 1140px;
+    width: 90%;
+}
+
+.footer-h5 {
+    font-family: 'Inter-700';
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+}
+
+.footer-text {
+    font-family: 'Inter-400';
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
 }
 
 
